@@ -32,7 +32,7 @@ const PaymentGateway: React.FC<PaymentGatewayProps> = ({ motionType, formData, o
     e.preventDefault();
     handlePaymentClick();
 
-    const url = 'https://square.link/u/fOCIWgTN?src=embed';
+    const url = const url = 'https://square.link/u/fOCIWgTN?src=embed';
     const title = 'Square Payment Links';
 
     // Some platforms embed in an iframe, so we want to top window to calculate sizes correctly
